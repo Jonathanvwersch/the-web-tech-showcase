@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pure Server Side Rendering</h1>
+            <p class="subtitle">HTML is fully rendered on the server and sent to the client. No JavaScript is needed.</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Technology Stack</h2>
+                </div>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>Frontend</h3>
+                        <div class="features">
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                    <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                                </svg>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                    <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                                </svg>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Backend</h3>
+                        <div class="features">
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                    <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                                </svg>
+                                <span>Express.js</span>
+                            </div>
+                            <div class="feature">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                    <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                                </svg>
+                                <span>Static File Serving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Request Flow</h2>
+                </div>
+                <div class="flow">
+                    <div class="flow-step">
+                        <div class="flow-number">1</div>
+                        <div class="flow-content">
+                            <h3>Client Request</h3>
+                            <p>Browser requests page from server</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">2</div>
+                        <div class="flow-content">
+                            <h3>Server Response</h3>
+                            <p>Server sends complete HTML document</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">3</div>
+                        <div class="flow-content">
+                            <h3>Browser Render</h3>
+                            <p>Browser displays the page immediately</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>See for Yourself</h2>
+                </div>
+                <div class="flow">
+                    <div class="flow-step">
+                        <div class="flow-number">1</div>
+                        <div class="flow-content">
+                            <h3>Open DevTools</h3>
+                            <p>Press F12 or right-click and select "Inspect"</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">2</div>
+                        <div class="flow-content">
+                            <h3>Network Tab</h3>
+                            <p>Click the Network tab and refresh the page</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">3</div>
+                        <div class="flow-content">
+                            <h3>Observe</h3>
+                            <p>You'll see just two files: index.html and styles.css</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">4</div>
+                        <div class="flow-content">
+                            <h3>Verify</h3>
+                            <p>No JavaScript files are downloaded or executed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Advantages</h2>
+                </div>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Fast Initial Load</span>
+                        </div>
+                        <p>No JavaScript to parse or execute, leading to quick page loads</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>SEO Friendly</span>
+                        </div>
+                        <p>Content is immediately available for search engines to crawl</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Low Complexity</span>
+                        </div>
+                        <p>Simple architecture with minimal points of failure</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Disadvantages</h2>
+                </div>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Limited Interactivity</span>
+                        </div>
+                        <p>No dynamic updates or complex user interactions without page reloads</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Full Page Reloads</span>
+                        </div>
+                        <p>Every navigation requires a complete page refresh from the server</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>No State Management</span>
+                        </div>
+                        <p>Cannot maintain client-side state between page transitions</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="/" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M6.7 12.7L2 8l4.7-4.7M2.7 8h11.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Back to Home
+            </a>
+        </footer>
+    </div>
+</body>
+</html> 

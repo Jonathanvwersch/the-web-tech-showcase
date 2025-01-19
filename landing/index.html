@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tech Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Web Tech Showcase</h1>
+            <p class="subtitle">Explore different web application architectures and approaches</p>
+        </header>
+
+        <main class="cards">
+            <a href="/pure-ssr" class="card">
+                <div class="card-content">
+                    <div class="card-header">
+                        <h2>Pure Server Side Rendered App</h2>
+                    </div>
+                    <p>HTML is fully rendered on the server and sent to the client. No JavaScript is needed.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>No JavaScript</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Server Rendered</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/mpa" class="card">
+                <div class="card-content">
+                    <div class="card-header">
+                        <h2>Multi-Page App</h2>
+                    </div>
+                    <p>Each page is rendered on the server and sent to the client on request, requiring full page reloads.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Server Routing</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Form Handling</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/spa" class="card">
+                <div class="card-content">
+                    <div class="card-header">
+                        <h2>Single Page App</h2>
+                    </div>
+                    <p>An initial HTML shell is sent, and JavaScript manages content and routing dynamically.
+                    </p>
+                    <div class="features">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Client Routing</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>State Management</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/ssr" class="card">
+                <div class="card-content">
+                    <div class="card-header">
+                        <h2>Server Side Rendered App</h2>
+                    </div>
+                    <p>The server renders HTML, then JavaScript hydrates it for interactivity and optional prefetching.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>SSR + Hydration</span>
+                        </div>
+                        <div class="feature">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M8 1.6a6.4 6.4 0 1 0 0 12.8A6.4 6.4 0 0 0 8 1.6ZM.8 8a7.2 7.2 0 1 1 14.4 0A7.2 7.2 0 0 1 .8 8Z" fill="currentColor"/>
+                                <path d="M11.4 5.4a.4.4 0 0 1 0 .57L7.7 9.66a.4.4 0 0 1-.57 0L4.6 7.13a.4.4 0 1 1 .57-.57l2.25 2.25 3.43-3.42a.4.4 0 0 1 .57 0Z" fill="currentColor"/>
+                            </svg>
+                            <span>Prefetching</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </main>
+    </div>
+</body>
+</html> 

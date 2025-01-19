@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPA - About</title>
+    <link rel="stylesheet" href="/mpa/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Multi-Page Application</h1>
+            <p class="subtitle">Each page is rendered on the server and sent to the client on request, requiring full page reloads.</p>
+        </header>
+
+        <main>
+            <nav class="card">
+                <div class="nav-links">
+                    <a href="/mpa/" class="nav-link">
+                        <span>Home</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6.7 12.7L10.7 8l-4-4.7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="/mpa/about" class="nav-link active">
+                        <span>About</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6.7 12.7L10.7 8l-4-4.7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="/mpa/more" class="nav-link">
+                        <span>More</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6.7 12.7L10.7 8l-4-4.7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="card">
+                <div class="flow">
+                    <div class="flow-step">
+                        <div class="flow-number">1</div>
+                        <div class="flow-content">
+                            <h3>Page Request</h3>
+                            <p>You clicked a link to /about</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">2</div>
+                        <div class="flow-content">
+                            <h3>Server Processing</h3>
+                            <p>Server found and sent about.html</p>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-number">3</div>
+                        <div class="flow-content">
+                            <h3>Browser Render</h3>
+                            <p>You're now viewing a fresh page load</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="/" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M6.7 12.7L2 8l4.7-4.7M2.7 8h11.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Back to Home
+            </a>
+        </footer>
+    </div>
+</body>
+</html> 
